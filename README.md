@@ -24,7 +24,8 @@ This repository contains everything you need to complete the lab except for the 
 # Options
 
 1. Unzip the files and create a coverity.yaml to the project repository (typically added to the application root folder where your build occurs).
-   An example file can be seen below, but this helps polaris understand what commands you require in order to build your application, if wanting to test a build.
+
+   An example file can be seen below and is specific to your application and the build commands it needs. Polaris can scan many languages without this file, however, the more Polaris understands about your application and how it works, provides better visibility into your risk. For more information regarding support, goto https://polaris.synopsys.com/developer/default/polaris-documentation/r_support-matrix.
 
 ```
 capture:

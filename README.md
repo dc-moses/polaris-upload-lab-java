@@ -42,6 +42,6 @@ analyze:
 
 You have now configured a Polaris workflow using the upload method and should be able to review found issues in the UI. :clap: :trophy:
 
-# CTF (Optional)
+# CTF (Optional for onsite sessions)
 
-Capture the value from the secret and assemble a 3 part sentance in order. 
+Once you upload the scan, you will find a "Use of Hard-coded Credentials" finding. Locate the secret, and decrypt it. Use this to assemble in order a 3 part sentance. 

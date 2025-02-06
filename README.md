@@ -1,4 +1,4 @@
-# Black Duck Polaris - Upload & Scan Lab
+# Black Duck Polaris - Upload & Scan Lab (Lab #1)
 
 The goal of this lab is to provide hands on experience with uploading your source to Polaris and viewing the results. As part of the lab, we will:
 - execute a full SAST and SCA scan, viewing the results in the Polaris UI
@@ -41,3 +41,7 @@ analyze:
 # Congratulations
 
 You have now configured a Polaris workflow using the upload method and should be able to review found issues in the UI. :clap: :trophy:
+
+# CTF (Optional)
+
+Capture the value from the secret and assemble a 3 part sentance in order. 

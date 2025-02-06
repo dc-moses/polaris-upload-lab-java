@@ -44,4 +44,4 @@ You have now configured a Polaris workflow using the upload method and should be
 
 # CTF (optional)
 
-Once you upload the scan, you will find a "Use of Hard-coded Credentials" finding. Locate the secret, and decrypt it. Use this to assemble in order a 3 part sentance. 
+Once you upload the scan, you will find a "Use of Hard-coded Credentials" finding. Locate the secret, and decrypt it. Use this to assemble a sentance in the proper order. 

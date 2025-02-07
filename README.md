@@ -24,7 +24,8 @@ This repository contains everything you need to complete the lab except for the 
 7. Once your scan has completed, review your results within the Polaris UI
 
 > [!NOTE]  
-> 1. Included in this lab is a coverity.yaml file. This is used in the event your application needs to build and lets Polaris know your build commands, and any other scan overides you'd like to configure.
+> Included in this lab is a coverity.yaml file. This is used in the event your application needs to build and lets Polaris know your build commands, and any other scan overides you'd like to configure.
+> 
 
 
 # Congratulations

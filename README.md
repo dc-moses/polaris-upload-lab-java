@@ -1,9 +1,13 @@
 # Black Duck Polaris - Upload & Scan Lab (Lab #1)
 
-The goal of this lab is to provide hands on experience with uploading your source to Polaris and viewing the results. As part of the lab, we will:
-- execute a full SAST and SCA scan, viewing the results in the Polaris UI
+The goal of this lab is to provide hands on experience with uploading your source to Polaris and viewing the results. There are multiple ways you can scan with Polaris, and uploading your source is one of them. In subsequent labs, we will show additional ways you can scan your applications.
 
-This repository contains everything you need to complete the lab except for the prerequisite listed below.
+As part of this lab, we will:
+- ensure access to the Polaris platform
+- upload our sample application to Polaris for analysis
+- review the results identified in the Polaris UI
+
+This repository contains everything you need to complete the lab except for the prerequisite listed below. If you have not yet recieved an inviation to the platform contact your Black Duck Sales Engineer.
 
 ## $\textsf{\color{#800080}{Prerequisites}}$
 
@@ -17,13 +21,16 @@ This repository contains everything you need to complete the lab except for the 
 4. Create or use an existing project. If creating new, do not use "New Project with SCM" at this time.
 5. To begin testing, click the 3 dotted menu on the far right and choose "New Test"
 6. Fill in the details, and upload the zip source file you previously downloaded
+7. Once your scan has completed, review your results within the Polaris UI
 
 > [!NOTE]  
 > 1. Included in this lab is a coverity.yaml file. This is used in the event your application needs to build and lets Polaris know your build commands, and any other scan overides you'd like to configure.
 
+
 # Congratulations
 
 You have now configured a Polaris workflow using the upload method and should be able to review found issues in the UI. :clap: :trophy:
+
 
 ## ![](https://img.shields.io/badge/optional-CTF-blueviolet?style=for-the-badge)
 Once you upload the scan, you will find a "Use of Hard-coded Credentials" finding. Locate the secret, and decrypt it. Use this to assemble a sentance in the proper order. 

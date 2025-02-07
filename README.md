@@ -5,43 +5,25 @@ The goal of this lab is to provide hands on experience with uploading your sourc
 
 This repository contains everything you need to complete the lab except for the prerequisite listed below.
 
-# Prerequisites
+## $\textsf{\color{#800080}{Prerequisites}}$
 
 1. A Polaris user account with entitlements for SAST and SCA
 
-# Download repository
+## UPLOAD & SCAN WITH POLARIS
+![](https://img.shields.io/badge/steps-blueviolet?style=for-the-badge)
+1. Download the zip file from this [GitHub repository](https://github.com/itsnotjason/polaris-upload-lab-java) onto your local computer
+2. Log in to Polaris
+3. From the Polaris UI, create a new application and assign SAST and SCA subscriptions if not already created
+4. Create or use an existing project. If creating new, do not use "New Project with SCM" at this time.
+5. To begin testing, click the 3 dotted menu on the far right and choose "New Test"
+6. Fill in the details, and upload the zip source file you previously downloaded
 
-1. Download the zip file from this repository onto your local computer
-
-# Polaris workflow
-
-1. Log in to Polaris
-2. From the Polaris UI, create a new application and assign SAST and SCA subscriptions if not already created
-3. Create or use an existing project. If creating new, do not use "New Project with SCM" at this time.
-4. To begin testing, click the 3 dotted menu on the far right and choose "New Test"
-5. Fill in the details, and upload the zip source file you previously downloaded
-
-# Options
-
-1. Unzip the files and create a coverity.yaml to the project repository (typically added to the application root folder where your build occurs).
-
-   An example file can be seen below and is specific to your application and the build commands it needs. Polaris can scan many languages without this file, however, the more Polaris understands about your application and how it works, provides better visibility into your risk. For more information regarding support, goto https://polaris.blackduck.com/developer/default/polaris-documentation/r_support-matrix.
-
-```
-capture:
-  build:
-    clean-command: mvn -B clean
-    build-command: mvn -B -DskipTests package
-analyze:
-  checkers:
-    webapp-security:
-      enabled: true
-```
+> [!NOTE]  
+> 1. Included in this lab is a coverity.yaml file. This is used in the event your application needs to build and lets Polaris know your build commands, and any other scan overides you'd like to configure.
 
 # Congratulations
 
 You have now configured a Polaris workflow using the upload method and should be able to review found issues in the UI. :clap: :trophy:
 
-# CTF (optional)
-
+## ![](https://img.shields.io/badge/optional-CTF-blueviolet?style=for-the-badge)
 Once you upload the scan, you will find a "Use of Hard-coded Credentials" finding. Locate the secret, and decrypt it. Use this to assemble a sentance in the proper order. 

@@ -19,8 +19,8 @@ This repository contains everything you need to complete the lab except for the 
 > [!WARNING]  
 > Some browsers auto unzip. You can typically recover the zip from your trash, or you may need to re-zip the files.   
 2. Log in to Polaris
-3. From the Polaris UI, create a new application and assign SAST and SCA subscriptions if not already created
-4. Create or use an existing project. If creating new, use "New Application(s)." **Do not setup with SCM at this time**.
+3. From the Polaris UI, create a new application assigning a name such as First Initial Last Initial-hellojava (ie. FL-hellojava) and assign SAST and SCA subscriptions from the drop downs prior to clicking Create Application.
+4. Now that your application is created you can add projects. Click, Create + New Project and give it a name and save.
 5. To begin testing, click the 3 dotted menu on the far right and choose "New Test"
 6. Fill in the details, select both SAST and SCA, and upload the zip source file you previously downloaded
 7. Once your scan has completed, review your results within the Polaris UI
